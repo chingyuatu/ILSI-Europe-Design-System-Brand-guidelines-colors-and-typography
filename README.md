@@ -12,8 +12,9 @@ This design system provides guidelines, components, and assets for consistent br
 
 ## 🎨 What's Included
 
-### Brand Guidelines
+### Brand Guidelines & Specifications
 - **DESIGN.md** — Complete design system specification including colors, typography, components, and usage guidelines
+- **logo-specs.md** — Detailed logo usage guidelines, sizing, and variations
 - **colors.json** — Structured color palette data for developers and designers
 
 ### Visual Assets
@@ -21,9 +22,9 @@ This design system provides guidelines, components, and assets for consistent br
 - Color palette specifications with Pantone, HEX, RGB, and CMYK values
 - Typography guide with font weights and hierarchy
 
-### Documentation
-- **README.md** (this file) — Quick reference
-- **LICENSE** — Usage rights and compliance
+### Ready-to-Use Templates
+- **PowerPoint Templates** — Professional presentation slides with ILSI branding
+- **Word Templates** — Document templates including full-page and one-pager formats
 
 ---
 
@@ -96,16 +97,18 @@ When Montserrat is unavailable:
 
 ### Logo Variations
 
-1. **Color Version** — Full color logo for light backgrounds
-2. **Reverse Version** — White logo for dark backgrounds
-3. **Icon Only** — Logo mark alone (when brand name visible nearby)
-4. **One Color** — Monochrome version for print
+Located in `/assets/`:
+
+1. **logo-color.png** — Full color logo for light backgrounds
+2. **logo-reverse.png** — White logo for dark backgrounds
 
 ### Logo Guidelines
 
 - **Minimum Size:** 1 inch (print) / 100px (digital)
 - **Clear Space:** Equal to height of ILSI wordmark on all sides
 - **Never:** Stretch, distort, alter proportions, change colors, add effects
+
+For detailed logo specifications, see **logo-specs.md**
 
 ---
 
@@ -143,6 +146,64 @@ When Montserrat is unavailable:
 | H3 | Montserrat | 20px | Medium | ILSI Indigo |
 | Body | Montserrat | 16px | Regular | ILSI Charcoal |
 | Link | Montserrat | 16px | Regular | ILSI Blue |
+
+---
+
+## 📊 Ready-to-Use Templates
+
+Pre-designed templates with ILSI branding applied. Download and customize for your specific needs.
+
+### PowerPoint Templates
+
+Located in `/templates/powerpoint/`:
+
+**ILSI Europe PPT_Template.pptx**
+- Professional presentation slides
+- 16:9 widescreen format
+- Branded slide layouts (title, content, two-column, etc.)
+- Color palette integrated
+- Montserrat typography applied
+- Logo placement examples
+- Ready for speaker notes
+
+**Best for:** Conferences, webinars, research presentations, stakeholder meetings
+
+**How to use:**
+1. Download the template
+2. Open in PowerPoint
+3. Customize with your content
+4. Maintain ILSI color and font specifications
+
+---
+
+### Word Templates
+
+Located in `/templates/word/`:
+
+**ILSI Europe Word_Template.docx**
+- Full-page document template
+- Branded header and footer
+- Montserrat typography with hierarchy
+- ILSI color accents
+- Page numbering
+- Professional spacing and margins
+- Suitable for reports, white papers, guidelines
+
+**ILSI_One-pager_Template.docx**
+- Single-page document template
+- Executive summary format
+- Compact, visually appealing layout
+- Logo integration
+- Perfect for quick briefs, summaries, one-page overviews
+
+**Best for:** Reports, policy briefs, fact sheets, research summaries, executive summaries
+
+**How to use:**
+1. Download the appropriate template
+2. Open in Microsoft Word
+3. Replace placeholder text with your content
+4. Keep ILSI branding consistent
+5. Maintain color and font guidelines
 
 ---
 
@@ -184,7 +245,8 @@ All designs must meet WCAG AA standards:
 1. Download **Montserrat** from [Google Fonts](https://fonts.google.com/specimen/Montserrat)
 2. Reference **DESIGN.md** for complete component specifications
 3. Use **colors.json** for accurate color definitions
-4. Access logo files in the `/assets` folder
+4. Access logo files in `/assets/` folder
+5. Customize templates in `/templates/` folder
 
 ### For Developers
 
@@ -192,6 +254,7 @@ All designs must meet WCAG AA standards:
 2. Load Montserrat from Google Fonts CDN or locally
 3. Reference component specifications in **DESIGN.md** for CSS/code implementations
 4. Ensure WCAG AA compliance in all implementations
+5. Use logo files from `/assets/`
 
 ### For Claude Design Users
 
@@ -205,20 +268,25 @@ All designs must meet WCAG AA standards:
 
 ---
 
-## 📋 File Structure
+## 📁 File Structure
 
 ```
 ilsi-design-system/
-├── README.md                    ← This file
-├── DESIGN.md                    ← Complete design system spec
-├── colors.json                  ← Color palette data
-├── logo-specs.md               ← Logo specifications
-└── assets/
-    ├── logo-color.png          ← Color logo
-    ├── logo-reverse.png        ← White/reverse logo
-    ├── logo-icon.png           ← Icon only
-    └── fonts/
-        └── montserrat/         ← Font files (if included)
+├── README.md                           ← This file
+├── DESIGN.md                           ← Complete design system spec
+├── logo-specs.md                       ← Logo guidelines
+├── colors.json                         ← Color palette data
+│
+├── assets/                             ← Brand assets
+│   ├── logo-color.png                  ← Full color logo
+│   └── logo-reverse.png                ← White/reverse logo
+│
+└── templates/                          ← Ready-to-use templates
+    ├── powerpoint/
+    │   └── ILSI Europe PPT_Template.pptx
+    └── word/
+        ├── ILSI Europe Word_Template.docx
+        └── ILSI_One-pager_Template.docx
 ```
 
 ---
@@ -237,7 +305,7 @@ For questions or special use cases, contact: **cchang@ilsieurope.be**
 
 | Version | Date | Notes |
 |---------|------|-------|
-| 1.0 | April 2026 | Initial design system launch |
+| 1.0 | April 2026 | Initial design system launch with templates |
 | — | — | Based on ILSI Europe Style Guide © 2022 |
 
 ---
@@ -249,15 +317,15 @@ For questions or special use cases, contact: **cchang@ilsieurope.be**
 - Organization: ILSI Europe
 - Website: www.ilsi.org
 
-For design system questions, updates, or feedback, please contact the communications team.
+For design system questions, updates, template feedback, or special requests, please contact the communications team.
 
 ---
 
 ## 🎓 Resources
 
 - [Complete Design System Guide](./DESIGN.md)
+- [Logo Specifications](./logo-specs.md)
 - [Color Specifications](./colors.json)
-- [Logo Guidelines](./logo-specs.md)
 - [Google Fonts - Montserrat](https://fonts.google.com/specimen/Montserrat)
 - [WCAG Accessibility Standards](https://www.w3.org/WAI/WCAG21/quickref/)
 
