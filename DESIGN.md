@@ -116,6 +116,8 @@ The ILSI logo consists of:
 - Always use approved logo files
 - Logo should never appear smaller than 1 inch in print or 100px on digital
 
+For complete logo specifications, see **logo-specs.md**
+
 ---
 
 ## Brand Personality
@@ -193,12 +195,113 @@ ILSI Europe embodies eight core personality traits:
 
 ---
 
+## Templates
+
+Pre-designed templates with ILSI branding integrated. Available in the `/templates/` directory.
+
+### PowerPoint Templates
+
+**ILSI Europe PPT_Template.pptx**
+
+Located: `/templates/powerpoint/`
+
+**Features:**
+- Professional presentation slides with ILSI branding
+- 16:9 widescreen format for modern displays
+- Pre-designed slide layouts:
+  - Title slide with ILSI logo
+  - Content slides with hierarchy
+  - Two-column layout for comparisons
+  - Image layouts
+  - Quote/callout slides
+- ILSI color palette integrated throughout
+- Montserrat typography applied
+- Logo placement examples
+- Speaker notes section
+- Master slide editing for consistency
+
+**Best For:**
+- Conference presentations
+- Research findings webinars
+- Stakeholder meetings
+- Project updates
+- Training sessions
+
+**Customization Guide:**
+1. Download template from repository
+2. Open in Microsoft PowerPoint or Google Slides
+3. Replace placeholder text with your content
+4. Maintain ILSI color palette (do not modify colors)
+5. Use approved logos from `/assets/` folder
+6. Keep font as Montserrat (or approved fallbacks)
+7. Ensure adequate white space and visual hierarchy
+
+---
+
+### Word Templates
+
+Located: `/templates/word/`
+
+**ILSI Europe Word_Template.docx**
+
+**Features:**
+- Full-page document template
+- Branded header with ILSI logo
+- Professional footer with page numbering
+- Montserrat typography with proper hierarchy
+- ILSI color accents for headings and dividers
+- Consistent spacing and margins (8px grid system)
+- Styles for headings, body text, quotes, lists
+- Pre-formatted table styles
+- Suitable for 4-8 page documents
+
+**Best For:**
+- Research reports
+- White papers
+- Policy guidelines
+- Program documentation
+- Scientific findings summaries
+
+---
+
+**ILSI_One-pager_Template.docx**
+
+**Features:**
+- Single-page document template
+- Executive summary format
+- Compact, visually appealing layout
+- ILSI logo integration (top-right or top-center)
+- Space-efficient design without compromising readability
+- Professional heading hierarchy
+- Two-column layout option
+- Perfect for condensed information
+
+**Best For:**
+- Executive summaries
+- Policy briefs
+- Fact sheets
+- Quick research findings
+- At-a-glance project overviews
+- One-page proposals
+
+**Customization Guide:**
+1. Download appropriate template
+2. Open in Microsoft Word
+3. Replace placeholder text (maintain layout)
+4. Keep ILSI logo and color scheme
+5. Use Montserrat font (or approved fallbacks)
+6. For one-pager: Maximize white space, be concise
+7. For full document: Maintain hierarchy and consistency
+
+---
+
 ## Imagery & Photography
 
 - Use photography that reflects sustainability, science, and collaboration
 - High-quality images showing: food, nutrition, agriculture, scientific research
 - Maintain consistent color temperature and style
 - Overlay with brand colors for visual coherence
+- Always use high-resolution images (300 DPI for print, 72 DPI minimum for web)
 
 ---
 
@@ -207,6 +310,8 @@ ILSI Europe embodies eight core personality traits:
 - Use multiples of 8px for consistent spacing (8px, 16px, 24px, 32px, 40px, 48px, etc.)
 - Maintain generous white space for clarity and sophistication
 - Organize content with clear visual hierarchy using font size and weight contrast
+- Left-align body text, center headlines when appropriate
+- Use ILSI Orange dividers to separate major sections
 
 ---
 
@@ -214,9 +319,42 @@ ILSI Europe embodies eight core personality traits:
 
 - Ensure minimum contrast ratio of 4.5:1 for WCAG AA compliance
 - All interactive elements must be keyboard accessible
-- Use semantic HTML and ARIA labels
+- Use semantic HTML and ARIA labels (for digital implementations)
 - Provide alt text for all images
 - Use color plus additional visual indicators (not color alone)
+- Maintain readable font sizes (minimum 12px for body text in print, 14px for digital)
+- Line height: 1.5 for body text (aids readability)
+
+---
+
+## Best Practices
+
+### Color Usage
+- Always use approved ILSI colors from the palette
+- Maintain contrast for accessibility
+- Use secondary colors as accents, not primary content
+- Ensure white space balances color areas
+
+### Typography
+- Default to Montserrat for all brand materials
+- Use Bold for emphasis, not all caps
+- Maintain hierarchy: H1 > H2 > H3 > Body
+- Line length: 50-75 characters for optimal readability
+- Adequate line spacing (1.5 minimum)
+
+### Logo Placement
+- Primary logo on light backgrounds
+- Reverse logo on dark backgrounds
+- Maintain minimum clear space
+- Never modify, distort, or alter the logo
+- Size appropriately for context
+
+### Templates
+- Always start with approved templates
+- Maintain formatting and structure
+- Keep branding consistent across all pages
+- Do not modify color palette without approval
+- Test on different devices/applications before sharing
 
 ---
 
@@ -224,11 +362,36 @@ ILSI Europe embodies eight core personality traits:
 
 - **Version 1.0** — Initial design system established, April 2026
 - Based on ILSI Europe Style Guide © 2022
+- Includes PowerPoint and Word templates
 
 ---
 
 ## Contact & Support
 
-For design system questions or updates:
+For design system questions, template customization, or brand asset requests:
 - Email: cchang@ilsieurope.be
 - Organization: ILSI Europe
+- Website: www.ilsi.org
+
+---
+
+## File Structure
+
+```
+ilsi-design-system/
+├── README.md                           ← Overview and getting started
+├── DESIGN.md                           ← This file
+├── logo-specs.md                       ← Detailed logo guidelines
+├── colors.json                         ← Color palette data
+│
+├── assets/                             ← Brand assets
+│   ├── logo-color.png
+│   └── logo-reverse.png
+│
+└── templates/                          ← Ready-to-use templates
+    ├── powerpoint/
+    │   └── ILSI Europe PPT_Template.pptx
+    └── word/
+        ├── ILSI Europe Word_Template.docx
+        └── ILSI_One-pager_Template.docx
+```
