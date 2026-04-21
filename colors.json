@@ -1,0 +1,73 @@
+{
+  "colors": {
+    "primary": {
+      "indigo": {
+        "name": "ILSI Indigo",
+        "hex": "#1F0079",
+        "rgb": "31, 0, 121",
+        "cmyk": "95, 99, 4, 1",
+        "pms": "2685 C",
+        "description": "Primary brand color representing wisdom and scientific credibility"
+      },
+      "orange": {
+        "name": "ILSI Orange",
+        "hex": "#F79F1E",
+        "rgb": "247, 159, 30",
+        "cmyk": "4, 36, 86, 0",
+        "pms": "136 C",
+        "description": "Represents confidence, optimism, and emerging science"
+      },
+      "blue": {
+        "name": "ILSI Blue",
+        "hex": "#1B7AB2",
+        "rgb": "27, 122, 178",
+        "cmyk": "91, 27, 5, 0",
+        "pms": "7689 C",
+        "description": "Represents sustainability, credibility, and life"
+      }
+    },
+    "secondary": {
+      "magenta": {
+        "name": "ILSI Magenta",
+        "hex": "#9C037E",
+        "rgb": "156, 3, 126",
+        "cmyk": "38, 93, 5, 1",
+        "pms": "241 C"
+      },
+      "brightMagenta": {
+        "name": "ILSI Bright Magenta",
+        "hex": "#C7187F",
+        "rgb": "199, 24, 127",
+        "cmyk": "18, 90, 8, 1",
+        "pms": "Rhodamine Red C"
+      },
+      "green": {
+        "name": "ILSI Green",
+        "hex": "#6CC185",
+        "rgb": "108, 193, 133",
+        "cmyk": "58, 3, 47, 0",
+        "pms": "346 C"
+      },
+      "lightBlue": {
+        "name": "ILSI Light Blue",
+        "hex": "#2E8EB9",
+        "rgb": "46, 142, 185",
+        "cmyk": "83, 18, 5, 1",
+        "pms": "7688 C"
+      }
+    },
+    "neutral": {
+      "white": {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "rgb": "255, 255, 255"
+      },
+      "charcoal": {
+        "name": "ILSI Charcoal",
+        "hex": "#393939",
+        "rgb": "57, 57, 57",
+        "description": "Use instead of pure black for softer contrast"
+      }
+    }
+  }
+}
